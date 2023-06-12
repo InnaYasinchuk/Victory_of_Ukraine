@@ -15,7 +15,6 @@ header {
   background-image: url("./images/medium-shot-woman-holding-ukranian-flag.png");
   background-color: #f1fdff;
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: right top;
 }
 
@@ -106,6 +105,8 @@ a:hover {
   font-size: 20px;
   line-height: 120%;
   color: #73a6b1;
+  max-width: 588px;
+  margin: 0 auto;
 }
 
 .scene-article {
@@ -142,7 +143,6 @@ a:hover {
 .article-menu {
   list-style: none;
   margin-top: 45px;
-  max-width: 238px;
 }
 
 .article-menu-item {
@@ -156,4 +156,50 @@ a:hover {
   line-height: 120%;
   color: #3d8c9d;
   margin-top: 10px;
+}
+
+.main-button {
+  background: #7ae5fd;
+  border-radius: 87px;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  text-transform: uppercase;
+  padding: 21px 35px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.main-button:hover {
+  background: #3d8c9d;
+  color: #fff;
+}
+
+.gift {
+  background-image: url("./images/prize-fon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 1285px;
+  height: 738px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 23px;
+}
+
+.gift-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1239px;
+  height: 277px;
+  background: #f2feff;
+  border-radius: 10px;
+}
+.gift-description p {
+  max-width: 391px;
+  font-size: 27.271px;
+  line-height: 120%;
+  margin-left: 40px;
 }
